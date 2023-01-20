@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog Posts</title>
+    <!-- Tailwind and DaisyUI link  -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@2.27.0/dist/full.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <h1 class="text-3xl font-bold text-red text-center mt-4">
+      Here is your question's and answer
+    </h1>
+
+    <section>
+      <div
+        tabindex="0"
+        class="collapse border border-base-300 bg-base-100 rounded-box w-9/12 mx-auto mt-8 bg-red-300"
+      >
+        <div class="collapse-title text-xl font-bold">
+          Difference between Session Storage and Local Storage??
+        </div>
+        <div class="collapse-content">
+          <p class="text-xl font-medium">
+            The difference between sessionStorage and localStorage is that
+            localStorage data does not expire, whereas sessionStorage data is
+            cleared when the page session ends.
+          </p>
+        </div>
+      </div>
+      <div
+        tabindex="0"
+        class="collapse border border-base-300 bg-base-100 rounded-box w-9/12 mx-auto mt-8 bg-red-300"
+      >
+        <div class="collapse-title text-xl font-bold">
+          Difference between Global scope and Local scope??
+        </div>
+        <div class="collapse-content">
+          <p class="text-xl font-medium">
+            A global variable has global scope. A global variable is accessible
+            from anywhere in the code. <br />
+            Local Scope — Local scope contains things defined inside code
+            blocks. A local variable has local scope.
+          </p>
+        </div>
+      </div>
+      <div
+        tabindex="0"
+        class="collapse border border-base-300 bg-base-100 rounded-box w-9/12 mx-auto mt-8 bg-red-300"
+      >
+        <div class="collapse-title text-xl font-bold">
+          How does work JavaScript event loop??
+        </div>
+        <div class="collapse-content">
+          <p class="text-xl font-medium">
+            The Event Loop has one simple job to monitor the Call Stack and the
+            Callback Queue. If the Call Stack is empty, the Event Loop will take
+            the first event from the queue and will push it to the Call Stack,
+            which effectively runs it. Such an iteration is called a tick in the
+            Event Loop.
+          </p>
+        </div>
+      </div>
+      <div
+        tabindex="0"
+        class="collapse border border-base-300 bg-base-100 rounded-box w-9/12 mx-auto mt-8 bg-red-300"
+      >
+        <div class="collapse-title text-xl font-bold">
+          Why we get undefined in JavaScript??
+        </div>
+        <div class="collapse-content">
+          <p class="text-xl font-medium">
+            1) A variable that has not been assigned a value is of type
+            undefined . <br />
+            2) A method or statement also returns undefined if the variable that
+            is being evaluated does not have an assigned value. <br />
+            3) A function returns undefined if a value was not returned .
+          </p>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
